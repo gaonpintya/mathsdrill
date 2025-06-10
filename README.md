@@ -1,38 +1,41 @@
-Addition Drill Generator
-Description
-This Python program generates a customizable addition drill worksheet in PDF format, complete with a solutions page. Users can specify the number of digits for the addition problems (e.g., 1-digit, 2-digit, 3-digit) and the grid size (e.g., 5x5, 6x6). The worksheet includes an extra row and column for calculating totals, enhancing the learning experience. The program is designed to be user-friendly, with options to use default settings or customize the drill, and includes robust error handling and an exit option at any input stage.
-Requirements
+📚 Addition Drill Generator
+This Python program creates engaging addition drill worksheets in PDF format, complete with a solutions page. Perfect for students, educators, or anyone looking to practice math skills! Customize the number of digits (e.g., 1-digit, 2-digit) and grid size (e.g., 5x5, 6x6), with features like totals for rows and columns.
+
+🚀 Features
+
+Customizable Settings: Select the number of digits and grid size for your addition problems.
+Default Option: Instantly generate a 2-digit, 5x5 grid drill.
+Totals Row & Column: Includes an extra row and column to calculate totals of the sums.
+Problem & Solution Pages: Get a problem page with blank cells and a solution page with all answers.
+Error Handling: Safely handles invalid inputs with clear error messages.
+Exit Option: Type exit at any prompt to stop the program.
+
+
+🛠️ Requirements
 
 Python 3.x
 reportlab library
 
-Installation
-To install the required reportlab library, run the following command:
+Install reportlab using:
 pip install reportlab
 
-Usage
+
+📝 Usage
 
 Run the script:python addition_drill_generator.py
 
 
 Follow the prompts:
-Choose whether to use default settings (2-digit addition, 5x5 grid) by entering 'y' or 'n'.
-If you choose 'n', enter the desired number of digits and grid size when prompted.
-Type 'exit' at any prompt to quit the program.
+Choose default settings (2-digit addition, 5x5 grid) by entering y or n.
+If n, enter the number of digits and grid size.
+Type exit at any prompt to quit.
 
 
 A PDF named addition_drill_X.pdf (where X is an incrementing serial number) will be generated in the current directory.
 
-Features
 
-Customizable Settings: Choose the number of digits and grid size for the addition problems.
-Default Option: Quickly generate a 2-digit, 5x5 grid drill.
-Totals Row and Column: An extra row and column are included for calculating totals of the sums.
-Problem and Solution Pages: The PDF contains a problem page with blank cells and a solution page with all sums and totals filled in.
-Error Handling: The program gracefully handles invalid inputs and ensures only valid data is accepted.
-Exit Option: Type 'exit' at any input prompt to terminate the program.
+💾 File Naming
+Each PDF is automatically named with an incrementing serial number (e.g., addition_drill_1.pdf, addition_drill_2.pdf), based on existing files in the directory.
 
-File Naming
-Each generated PDF is automatically named with an incrementing serial number, such as addition_drill_1.pdf, addition_drill_2.pdf, etc., based on existing files in the directory.
-License
+📜 License
 [Optional: Add a license if applicable]
